@@ -14,7 +14,6 @@ Program Word Search Puzzle ini merupakan suatu permainan berupa matriks alphabet
 7. Kata yang akan dicari berhasil Anda temukan
 
 ## Identitas Pembuat
-|Nama|Hana Fathiyah|
-|NIM|13520047|
-|Kelas|K02|
-
+|Nama|NIM|Kelas|
+|---|---|---|
+|Hana Fathiyah|13520047|K02|
