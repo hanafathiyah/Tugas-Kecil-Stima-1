@@ -8,6 +8,7 @@
 #include "pcolor/pcolor.h"
 
 bool result[255][255];
+int eqCounter = 0;
 
 bool isPositionMatch(char* str, Position pos, Direction dir, Size s, char matrix[255][255]){
     Position currentPos = pos;
@@ -15,6 +16,7 @@ bool isPositionMatch(char* str, Position pos, Direction dir, Size s, char matrix
     int stringLength = strlen(str) - 1;
 
     while(isPositionValid(currentPos, s)) {
+        eqCounter++;
         if(str[length] == matrix[currentPos.row][currentPos.col]){
             length++;
         }else{
@@ -127,6 +129,7 @@ int main () {
       }
   }
   int game_coloring = 0;
+  int cnt_alpha_match = 0;
   for(int i = 0; i < word_count; i++){
       checkWord(word_list[i], game_matrix, matrix);
       for(int i = 0; i < matrix.rows; i++){
@@ -140,6 +143,7 @@ int main () {
              if (j < matrix.cols - 1) {
                  //printf(" ");
              }
+             cnt_alpha_match++;
           }
           //printf("\n");
       }
@@ -172,4 +176,6 @@ int main () {
       }
     printf("\n");
   }
+
+  printf("Jumlah perbandingan: %d\n", eqCounter);
 }
