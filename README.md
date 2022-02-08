@@ -2,7 +2,7 @@
 Tugas Kecil 1 Mata Kuliah Strategi Algoritma, Membuat Word Search Puzzle Menggunakan Algoritma Brute Force
 
 ## Deskripsi Singkat Program
-Program Word Search Puzzle ini merupakan suatu permainan berupa matriks alphabet acak yang di dalamnya terdapat huruf-huruf yang jika dirangkai secara tersusun membentuk suatu kata. Program Word Search Puzzle ini merupakan salah satu implementasi dari algoritma Brute-Force, tepatnya adalah pattern matching. Dengan melakukan pencarian berdasarkan 8 arah mata angin (west, northwest, north, northeast, east, southeast, south, southwest), suatu kata dapat ditemukan dari rangkaian huruf-huruf.
+Program Word Search Puzzle ini merupakan suatu permainan berupa matriks alphabet acak yang di dalamnya terdapat huruf-huruf yang jika dirangkai secara tersusun membentuk suatu kata. Program Word Search Puzzle ini merupakan salah satu implementasi dari algoritma Brute-Force, tepatnya adalah pattern matching. Dengan melakukan pencarian berdasarkan 8 arah mata angin (west, northwest, north, northeast, east, southeast, south, southwest), suatu kata dapat ditemukan dari rangkaian huruf-huruf
 
 ## Cara Menggunakan Program
 1. Siapkan OS linux Anda, dapat juga menggunakan WSL
